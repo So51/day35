@@ -1,0 +1,8 @@
+function Mobile(type, model, color){
+ this.type = type;
+ this.model = model;
+ this.color = color;
+}
+var iphone = new Mobile("iphone", "XS", "black");
+var huawei = new Mobile("huawei", "mate20", "blue");
+document.write(iphone.type+" "+iphone.model+" "+iphone.color);
